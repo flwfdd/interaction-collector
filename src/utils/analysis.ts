@@ -1,4 +1,4 @@
-import { FittsTrialData } from '../types';
+// Types are used implicitly via the data structure
 
 interface RegressionResult {
   a: number; // Intercept

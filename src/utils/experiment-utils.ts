@@ -19,10 +19,6 @@ function getMaxDistance(angleDeg: number, targetWidth: number, padding = 20): nu
   const height = window.innerHeight;
   const rad = (angleDeg * Math.PI) / 180;
   
-  // Center of screen
-  const cx = width / 2;
-  const cy = height / 2;
-  
   // Available space from center to edge in the direction of the target (and start)
   // The task is centered, so we need space for half distance + half target width + padding
   // in both directions (angle and angle + 180)

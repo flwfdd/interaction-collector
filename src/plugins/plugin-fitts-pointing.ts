@@ -216,7 +216,7 @@ class FittsPointingPlugin implements JsPsychPlugin<Info> {
     // Track if press started on screen (for valid tap detection)
     let isPressed = false;
 
-    const handleDown = (e: MouseEvent | TouchEvent) => {
+    const handleDown = (_e: MouseEvent | TouchEvent) => {
       if (!this.isTracking) return;
       isPressed = true;
     };
